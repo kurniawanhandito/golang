@@ -24,4 +24,10 @@ func main() {
 	fmt.Println(seventh, eight, ninth)
 	one, isTuesday, twoPointTwo, say := 1, true, 2.2, "hello"
 	fmt.Println(one, isTuesday, twoPointTwo, say)
+
+	//underscore variable
+	/*
+		its not used
+	*/
+	_ = "learn golang"
 }
