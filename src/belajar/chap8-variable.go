@@ -30,4 +30,17 @@ func main() {
 		its not used
 	*/
 	_ = "learn golang"
+
+	//declare variable with keyword "new"
+	name := new(string)
+	fmt.Println(name)
+	fmt.Println(*name)
+
+	//declare variable with keyword "make"
+	/*
+		can use for these varables only
+		- channel
+		- slice
+		- map
+	*/
 }
